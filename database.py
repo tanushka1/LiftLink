@@ -278,7 +278,7 @@ foreign_dict = {
 # main functions to use:
 def getLatLong(address):
     # Set your API key here
-    API_KEY = 'AIzaSyCX7QD26f7lidyJZfE2fxkGB7lFAv3wjBk'
+    API_KEY = ''
 
     # Define the API endpoint
     url = f'https://maps.googleapis.com/maps/api/geocode/json?address={address}&key={API_KEY}'
